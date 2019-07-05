@@ -2,7 +2,7 @@
 
 ## Installation
 
-   git clone https://github.com/JDTheRipperPC/terminator-config ~/.config/terminator
+    git clone https://github.com/JDTheRipperPC/terminator-config ~/.config/terminator
 
 ## Configuration
 
