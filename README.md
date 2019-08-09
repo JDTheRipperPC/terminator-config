@@ -6,7 +6,7 @@
 
 ## Requirements
 
-   sudo apt-get install terminator
+    sudo apt-get install terminator
 
 ## Configuration
 
