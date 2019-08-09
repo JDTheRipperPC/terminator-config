@@ -4,6 +4,10 @@
 
     git clone https://github.com/JDTheRipperPC/terminator-config ~/.config/terminator
 
+## Requirements
+
+   sudo apt-get install terminator
+
 ## Configuration
 
 ### Keybindings
