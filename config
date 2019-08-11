@@ -1,7 +1,7 @@
 [global_config]
-
 [keybindings]
   switch_to_tab_1 = <Alt>1
+  switch_to_tab_10 = <Alt>0
   switch_to_tab_2 = <Alt>2
   switch_to_tab_3 = <Alt>3
   switch_to_tab_4 = <Alt>4
@@ -10,12 +10,15 @@
   switch_to_tab_7 = <Alt>7
   switch_to_tab_8 = <Alt>8
   switch_to_tab_9 = <Alt>9
-  switch_to_tab_10 = <Alt>0
-
 [layouts]
-
   [[default]]
-
+    
+    [[[terminal]]]
+      order = 0
+      parent = window
+      profile = default
+      type = Terminal
+    
     [[[window]]]
       fullscreen = False
       maximised = True
@@ -23,17 +26,15 @@
       parent = ""
       title = ~ This Is A Mother Fucker Terminator ~
       type = Window
-
-    [[[terminal]]]
-      order = 0
-      parent = window
-      profile = default
-      type = Terminal
-
 [plugins]
-
 [profiles]
-
-  [[default]]
-    cursor_color = "#aaaaaa"
-    scrollback_lines = 5000
+  [[default]] # zenburn by default
+  background_color = "#3f3f3f"
+    cursor_color = "#dcdcdc"
+    foreground_color = "#dcdcdc"
+    palette = "#3f3f3f:#cc9393:#7f9f7f:#e3ceab:#dfaf8f:#cc9393:#8cd0d3:#dcdccc:#3f3f3f:#cc9393:#7f9f7f:#e3ceab:#dfaf8f:#cc9393:#8cd0d3:#dcdccc"
+  [[zenburn]]
+    background_color = "#3f3f3f"
+    cursor_color = "#dcdcdc"
+    foreground_color = "#dcdcdc"
+    palette = "#3f3f3f:#cc9393:#7f9f7f:#e3ceab:#dfaf8f:#cc9393:#8cd0d3:#dcdccc:#3f3f3f:#cc9393:#7f9f7f:#e3ceab:#dfaf8f:#cc9393:#8cd0d3:#dcdccc"
